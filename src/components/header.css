@@ -1,0 +1,13 @@
+.header {
+    background-color: aqua;
+}
+
+.header .wrapper {
+    padding: 20px 0;
+    background-color: aquamarine;
+}
+
+.header h1 a {
+    font-size: 36px;
+    text-decoration: none;
+}
