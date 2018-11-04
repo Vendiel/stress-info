@@ -136,7 +136,6 @@ body {
     margin: 0 auto;
     padding: 0 2%;
     overflow: auto;
-    background-color: orange;
 }
 
 /* Korrigering så col-5 i en col-8 inte blir för smalt i mellanbredden */

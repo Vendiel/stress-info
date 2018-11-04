@@ -1,0 +1,26 @@
+ul.navigation {
+    border-top: 1px solid lightgrey;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 .5%;
+    /* background-color: lightblue; */
+}
+
+.navigation li a {
+    display: block;
+    color: green;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    padding: 0.6em 1em;
+    line-height: normal;
+}
+
+.navigation li a:hover {
+    background-color: green;
+    color: #ffffff;
+}
