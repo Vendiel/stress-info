@@ -1,18 +1,16 @@
 .header {
-    /* background-color: #ffffff; */
-    padding-top: 40px;
-    /* border-top: 10px solid green; */
+    padding-top: 35px;
 }
 
 .header h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .logo {
     display: block;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
 .logo img {
@@ -22,5 +20,5 @@
 .header h1 a {
     font-size: 28px;
     text-decoration: none;
-    color: orange;
+    color: #D67900;
 }

@@ -150,7 +150,7 @@ body {
 }
 
 .bg-color1 {
-  background-color: lightgreen;
+  background-color: #2B8500;
 }
 
 .bg-color2 {
@@ -158,7 +158,7 @@ body {
 }
 
 .bg-color3 {
-  background-color: lightgrey;
+  background-color: #dddddd;
 }
 
 .introduction {
@@ -188,6 +188,10 @@ p, li p {
   margin-bottom: 1.5em;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 .introduction p {
   text-align: center;
 }
@@ -196,17 +200,14 @@ ul.last-updated li {
   margin-bottom: 15px;
 }
 
-p.date {
-  display: inline-block;
-  width: 15%;
-  vertical-align: top;
-  font-weight: bolder;
+ul.last-updated li:last-child {
+  margin-bottom: 0px;
 }
 
-p.description {
-  display: inline-block;
-  width: 85%;
-}
+
+
+
+/* --- START PAGE --- */ 
 
 img.mindmap {
   display: block;
@@ -215,4 +216,16 @@ img.mindmap {
   padding: 4px;
   border: 1px solid rgb(236, 236, 236);
   margin-bottom: 15px;
+}
+
+p.date {
+  width: 130px;
+	float: left;
+  vertical-align: top;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+p.description {
+  margin-left: 130px;
 }

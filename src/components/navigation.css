@@ -1,6 +1,5 @@
 ul.navigation {
-    border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid #dddddd;
     text-align: center;
     padding: 15px 0;
 }
@@ -13,7 +12,7 @@ ul.navigation {
 
 .navigation li a {
     display: block;
-    color: green;
+    color: #2B8500;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -22,6 +21,6 @@ ul.navigation {
 }
 
 .navigation li a:hover {
-    background-color: green;
+    background-color: #2B8500;
     color: #ffffff;
 }

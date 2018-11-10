@@ -4,7 +4,7 @@ import './footer.css'
 
 const Footer = () => (
   <div class="footer">
-    <p>copyright 2018 Ida-Maria</p>
+    <p>Copyright © 2018 Ida-Maria Isaksson</p>
   </div>
 )
 
