@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Stress, oro, ångest och utmattning',
+    title: 'Stress och utmattning',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
