@@ -1,8 +1,10 @@
+@import 'variables';
+
 .footer {
-    background-color: #4B7709;
+    background-color: $primary-color-dark;
     background-image: url('../images/footer-bg.svg');
     background-repeat: no-repeat;
-    padding: 10% 20px 4 % 20px;
+    padding: 10% 20px 4% 20px;
     text-align: center;
     color:#fff;
     font-size: 0.8em;

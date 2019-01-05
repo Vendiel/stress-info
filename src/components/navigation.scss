@@ -1,3 +1,5 @@
+@import 'variables';
+
 ul.navigation {
     border-top: 1px solid #dddddd;
     text-align: center;
@@ -7,12 +9,11 @@ ul.navigation {
 .navigation li {
     display: inline-block;
     margin: 0 .5%;
-    /* background-color: lightblue; */
 }
 
 .navigation li a {
     display: block;
-    color: #2B8500;
+    color: $primary-color-dark;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -21,6 +22,6 @@ ul.navigation {
 }
 
 .navigation li a:hover {
-    background-color: #2B8500;
+    background-color: $primary-color-dark;
     color: #ffffff;
 }

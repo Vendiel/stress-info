@@ -1,3 +1,5 @@
+@import 'variables';
+
 /* 
 Uppställning av CSS:
 - Global reset 
@@ -129,12 +131,12 @@ table {
 } */
 
 
+
 /* --- GENERAL --- */ 
 
 /* Definierar bakgrundsfärg och font-styling */
 body {
-    /* background: #eee; */
-    color: #1f1f1f;
+    color: $font-color;
     font-family: 'Muli', sans-serif;
 }
 
@@ -150,19 +152,19 @@ body {
 }
 
 .bg-color1 {
-  background-color: #2B8500;
+  background-color: $primary-color;
 }
 
 .bg-color2 {
-  background-color: #ffffff;
+  background-color: $background-white;
 }
 
 .bg-color3 {
-  background-color: #BDE073;
+  background-color: $primary-color-light;
 }
 
 .introduction {
-  background-color: #ffffff;
+  background-color: $background-white;
   margin: 205px 10% 45px 10%;
   padding: 45px 65px 55px 65px;
   -webkit-box-shadow: 0px 10px 25px -16px rgba(0,0,0,0.75);
