@@ -27,7 +27,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <div class="bg-color3">
+    <div class="bg-color2">
       <div class="wrapper">
         <div class="col-9">
           <h2>Senaste uppdaterad</h2>
