@@ -1,0 +1,74 @@
+/* --- GRID SYSTEM a la 9 COLUMNS --- */
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
+    box-sizing: border-box;
+    float: left;
+    margin-right: 2.020202%;
+    padding: 48px 2.0% 48px 2.0%;
+}
+
+/* Nollställing av margin-right för sista kolumnen så man utnyttjar hela bredden */
+.col-1:last-child, .col-2:last-child, .col-3:last-child, .col-4:last-child, .col-5:last-child, .col-6:last-child, .col-7:last-child, .col-8:last-child, .col-9:last-child {
+    margin-right: 0;
+}
+
+.col-1 {
+    width: 9.315376%;
+    /* background-color: aqua; */
+}
+
+.col-2 {
+    width: 20.650954%;
+    /* background-color: lightseagreen; */
+}
+
+.col-3 {
+    width: 31.986532%;
+    /* background-color: lightsteelblue; */
+}
+
+.col-4 {
+    width: 43.32211%;
+    /* background-color: lightgray; */
+}
+
+.col-5 {
+    width: 54.657688%;
+    /* background-color: lightcyan; */
+}
+
+.col-6 {
+    width: 65.993266%;
+    /* background-color: lightcoral; */
+}
+
+.col-7 {
+    width: 77.328844%;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.col-8 {
+    width: 88.664422%;
+    /* background-color: lightskyblue; */
+}
+
+.col-9 {
+  width: 100%;
+  /* background-color: lightpink; */
+}
+
+/* Korrigering av padding o marginaler för mindre skärmar 
+@media all and (max-width: 1000px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8 {
+        padding: 16px 2.0% 16px 2.0%;
+        margin-top: 16px;
+    }
+} 
+
+Ändrar så det layouten blir en kolumn för mindre skärmar 
+@media all and (max-width: 720px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8 {
+        width: 100%;
+    }
+} */
+
