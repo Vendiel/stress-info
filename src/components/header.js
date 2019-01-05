@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import Navigation from './navigation'
 import logo from "../images/hjortron.png"
-import './header.css'
+import './header.scss'
 
 const Header = ({ siteTitle }) => (
   <div className = { "header" }>
