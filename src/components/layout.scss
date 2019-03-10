@@ -21,7 +21,8 @@ body {
 }
 
 .bg-first-section {
-  background-image: url('../images/promo-img3.jpg');
+  background-image: url('../images/intro-img.png');
+  background-repeat: no-repeat;
 }
 
 .bg-color1 {
@@ -38,12 +39,15 @@ body {
 
 .introduction {
   background-color: $background-white;
-  margin: 205px 10% 45px 10%;
+  margin: 305px 10% 45px 10%;
   padding: 45px 65px 55px 65px;
   -webkit-box-shadow: 0px 10px 25px -16px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 10px 25px -16px rgba(0,0,0,0.75);
   box-shadow: 0px 10px 25px -16px rgba(0,0,0,0.75);
 }
+
+
+/*** Text ***/
 
 h1 {
   font-size: 2.2em;
@@ -59,7 +63,7 @@ h2 {
 }
 
 p, li p {
-  line-height: 1.5em;
+  line-height: 1.75em;
   margin-bottom: 1.5em;
 }
 
@@ -71,12 +75,27 @@ p:last-child {
   text-align: center;
 }
 
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+  font-size: 0.875em;
+
+  a {
+    text-decoration: none;
+  }
+}
+
 ul.last-updated li {
   margin-bottom: 15px;
 }
 
 ul.last-updated li:last-child {
   margin-bottom: 0px;
+}
+
+ul.references {
+  font-size: 0.875em;
 }
 
 
