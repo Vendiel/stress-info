@@ -9,7 +9,7 @@ const IndexPage = () => (
     <div class="bg-first-section">
       <div class="wrapper">
         <div class="introduction">
-          <h1>Stress och utmattning</h1>
+          <h1>Stress och utmattning!</h1>
           <p>Välkommen till den här sajten som fokuserar på stress och utmattning. Skälet till att denna sajt skapades var för att ha ett ställe att samla all information jag samlat på mig via podcasts, böcker, andra sajter, osv. Ett ställe att gå tillbaka till när man behöver friska upp minnet.</p>
         </div>
       </div>
