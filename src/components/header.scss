@@ -1,26 +1,26 @@
-@import 'variables';
+@import "variables";
 
 .header {
-    padding-top: 35px;
+  padding-top: 35px;
 }
 
 .header h1 {
-    text-align: center;
-    margin-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .logo {
-    display: block;
-    text-align: center;
-    margin-bottom: 3px;
-  }
+  display: block;
+  text-align: center;
+  margin-bottom: 3px;
+}
 
 .logo img {
-    width: 80px;
-  }
+  width: 90px;
+}
 
 .header h1 a {
-    font-size: 28px;
-    text-decoration: none;
-    color: #D67900;
+  font-size: 28px;
+  text-decoration: none;
+  color: #d67900;
 }

@@ -1,28 +1,29 @@
-@import 'variables';
-@import 'reset';
-@import 'mygrid';
+@import "variables";
+@import "reset";
+@import "mygrid";
 
-@import url('https://fonts.googleapis.com/css?family=Muli|Nunito');
+@import url("https://fonts.googleapis.com/css?family=Muli|Nunito");
 
-
-/* --- GENERAL --- */ 
+/* --- GENERAL --- */
 
 /* Definierar bakgrundsfärg och font-styling */
 body {
-    color: $font-color;
-    font-family: 'Muli', sans-serif;
+  color: $font-color;
+  font-family: "Muli", sans-serif;
 }
 
 /* Wrapper för innehållet, centrerar content och sätter bredd */
 .wrapper {
-    max-width: 1160px;
-    margin: 0 auto;
-    overflow: auto;
+  max-width: 1160px;
+  margin: 0 auto;
+  overflow: auto;
 }
 
 .bg-first-section {
-  background-image: url('../images/intro-img.png');
+  background-image: url("../images/intro-img.png");
   background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 380px;
 }
 
 .bg-color1 {
@@ -39,13 +40,12 @@ body {
 
 .introduction {
   background-color: $background-white;
-  margin: 305px 10% 45px 10%;
+  margin: 260px 10% 25px 10%;
   padding: 45px 65px 55px 65px;
-  -webkit-box-shadow: 0px 10px 25px -16px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 25px -16px rgba(0,0,0,0.75);
-  box-shadow: 0px 10px 25px -16px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 10px 25px -16px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 25px -16px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 25px -16px rgba(0, 0, 0, 0.75);
 }
-
 
 /*** Text ***/
 
@@ -62,7 +62,8 @@ h2 {
   font-weight: bold;
 }
 
-p, li p {
+p,
+li p {
   line-height: 1.75em;
   margin-bottom: 1.5em;
 }
@@ -98,10 +99,7 @@ ul.references {
   font-size: 0.875em;
 }
 
-
-
-
-/* --- START PAGE --- */ 
+/* --- START PAGE --- */
 
 img.mindmap {
   display: block;
@@ -114,7 +112,7 @@ img.mindmap {
 
 p.date {
   width: 130px;
-	float: left;
+  float: left;
   vertical-align: top;
   font-weight: bolder;
   margin-bottom: 0px;
